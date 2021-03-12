@@ -1,6 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
-     unev = str.length % 2;
-  if (unev != 0) 
+     pervichka = str.length % 2;
+  if (pervichka != 0) 
       return false;
 verticalnae = 0
 krug_ot = 0
@@ -22,7 +22,7 @@ kvad_zak = 0
     krug_ot =+1;
                                }
                                
-    if (verticalnae%2 === 0)|krug_ot = krug_zak |kvad_ot=kvad_zak){
+    if (verticalnae%2 === 0)||krug_ot = krug_zak||kvad_ot=kvad_zak){
     return true;
 }
     else
