@@ -22,7 +22,7 @@ kvad_zak = 0
     krug_ot =+1;
                                }
                                
-    if (verticalnae%2 === 0)||krug_ot = krug_zak||kvad_ot=kvad_zak){
+    if (verticalnae%2 === 0) && krug_ot === krug_zak && kvad_ot===kvad_zak){
     return true;
 }
     else
