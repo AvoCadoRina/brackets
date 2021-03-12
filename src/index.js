@@ -5,7 +5,8 @@ krug_ot = 0
 krug_zak = 0
 kvad_ot = 0
 kvad_zak = 0
-    for(str i = 0; i < str.length; i++){
+    var arr = []
+    for(arr i = 0; i < str.length; i++){
     if (str[i] == '|'){
         verticalnae =+1;
     } else if (str[i] == '(') {
