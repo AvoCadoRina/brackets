@@ -28,3 +28,4 @@ kvad_zak = 0
     else
         return false;
 }
+}
